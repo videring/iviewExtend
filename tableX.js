@@ -1,6 +1,8 @@
 /*
 * 作者： videring
 * 说明： 1.支持OptionGroup 2.option上需要传入data，存储原数据 3.select-x上要传入idKey，设置唯一标识符 3.基于第二、三点，组件实现了回显 4.iview Select功能保持不变
+* 文档：https://www.jianshu.com/p/aff1910e4a21  
+* 示例：https://codesandbox.io/embed/vue-template-y1ms4
 */
 export default {
     props: {
