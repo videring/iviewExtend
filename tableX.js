@@ -62,8 +62,8 @@ export default {
                         this.$emit('on-change', res)
                     }
                 },
-                'on-open-change': () => {
-                    this.$emit('on-open-change')
+                'on-open-change': (params) => {
+                    this.$emit('on-open-change', params)
                 }
             },
             props,
